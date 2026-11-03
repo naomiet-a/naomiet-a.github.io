@@ -14,3 +14,26 @@
   <li>Statue of Liberty</li>
   <li>Statue of Liberty</li>
 </ul>
+
+  <p><a href="#plan-visit">Jump to the Plan Your Visit form</a></p>
+  <h2 id="plan-visit">Plan Your Visit</h2>
+  <form action="#" method="get">
+    <label for="full-name">Full name:</label><br>
+    <input type="text" id="full-name" name="full_name" placeholder="Enter your name" required>
+    <br><br>
+    <label for="email">Email address:</label><br>
+    <input type="email" id="email" name="email" placeholder="name@example.com" required>
+    <br><br>
+    <label for="travel-date">Preferred travel date:</label><br>
+    <input type="date" id="travel-date" name="travel_date">
+    <br><br>
+    <label for="travellers">Number of travellers:</label><br>
+    <input type="number" id="travellers" name="travellers" min="1" value="1">
+    <br><br>
+    <label for="attraction">Favourite attraction:</label><br>
+      <select id="attraction" name="attraction">
+        <option value="mount-royal">Mount Royal Park</option>
+        <option value="old-montreal">Old Montréal</option>
+        <option value="basilica">Notre-Dame Basilica</option>
+      </select>
+    <br><br>
